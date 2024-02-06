@@ -4,6 +4,10 @@ body {
 
 .row-layout {
   /* The content from the exericse goes here */
+  display:flex;
+  flex-flow: row wrap;
+  padding: 5vw;
+
 }
 
 .box {
@@ -12,7 +16,7 @@ body {
   border: 1px solid #444;
   padding: .5vw;
   width: 300px;
-  
+
 }
 .box img {
   width: 100%;
